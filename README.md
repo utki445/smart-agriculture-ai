@@ -280,9 +280,8 @@ If you want to retrain from scratch:
 
 | Name | Role | Registration |
 |------|------|-------------|
-| **Utkarsh Persai** | Software & Integration Lead | 23BCT0169 |
-| **Devansh Rathore** | Hardware & IoT Lead | — |
-| **Prof. Geetha Mani** | Project Guide | VIT Vellore |
+| **Utkarsh Persai** | 23BCT0169 |
+| **Prof. Padma Priya R** | Project Guide | VIT Vellore |
 
 ---
 
