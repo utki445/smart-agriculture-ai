@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+~$*
+
+# Patent & Legal Docs (keep private - do NOT push to public repos)
+Old_agriculture_patents/
+Docs/dummy_teammate_report_ieee.*

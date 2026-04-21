@@ -1,0 +1,8 @@
+{
+  "temperature": 24.0,
+  "humidity": 62.0,
+  "moisture": 0,
+  "raw_soil": 2559,
+  "pump": "ON",
+  "mode": "AUTO"
+}

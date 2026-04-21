@@ -1,0 +1,54 @@
+{
+  "classes": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "feature_cols": [
+    "temperature",
+    "humidity",
+    "rainfall",
+    "n",
+    "p",
+    "k",
+    "ph"
+  ],
+  "scaler_mean": [
+    25.616243837529964,
+    71.48177924459631,
+    103.46365539290689,
+    50.551818181818184,
+    53.36272727272727,
+    48.14909090909091,
+    6.469480065757578
+  ],
+  "scaler_scale": [
+    5.062597608073421,
+    22.258751091906078,
+    54.94589655617226,
+    36.90894257695227,
+    32.97838509495386,
+    50.636418345000635,
+    0.7737617762752458
+  ],
+  "accuracy": 0.9954545497894287
+}
