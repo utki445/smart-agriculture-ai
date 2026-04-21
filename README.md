@@ -278,10 +278,10 @@ If you want to retrain from scratch:
 
 ## 👥 Authors
 
-| Name | Role | Registration |
-|------|------|-------------|
-| **Utkarsh Persai** | 23BCT0169 |
-| **Prof. Padma Priya R** | Project Guide | VIT Vellore |
+| Name |
+|------|
+| **Utkarsh Persai** | 
+| **Prof. Padma Priya R** |
 
 ---
 
