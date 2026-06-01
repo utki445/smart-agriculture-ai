@@ -281,13 +281,12 @@ If you want to retrain from scratch:
 | Name |
 |------|
 | **Utkarsh Persai** | 
-| **Prof. Padma Priya R** |
 
 ---
 
 ## 📄 License
 
-This project is part of an academic submission and patent filing at **Vellore Institute of Technology (VIT)**. All rights reserved. Unauthorized reproduction or distribution is prohibited.
+This project is part of an academic submission and patent filing . All rights reserved. Unauthorized reproduction or distribution is prohibited.
 
 ---
 
