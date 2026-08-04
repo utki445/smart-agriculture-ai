@@ -7,6 +7,8 @@
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red.svg)](https://streamlit.io)
 [![ESP32](https://img.shields.io/badge/Hardware-ESP32-green.svg)](https://espressif.com)
 
+> 📋 **For future development plans, see [ROADMAP.md](ROADMAP.md)**
+
 ---
 
 ## 📌 Overview
@@ -98,6 +100,7 @@ smart_agri/
 ├── start_smart_agri.bat           # One-click system launcher (Windows)
 ├── requirements.txt               # Python dependencies
 ├── .gitignore                     # Git ignore rules
+├── ROADMAP.md                     # Future development roadmap
 └── README.md                      # This file
 ```
 
@@ -140,8 +143,8 @@ Relay NO/COM  → Water pump + external 5V supply
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/smart_agri.git
-cd smart_agri
+git clone https://github.com/utki445/smart-agriculture-ai.git
+cd smart-agriculture-ai
 ```
 
 ### Step 2: Create Virtual Environment
