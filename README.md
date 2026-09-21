@@ -283,7 +283,7 @@ If you want to retrain from scratch:
 
 | Name |
 |------|
-| **Utkarsh Persai** | 
+| **Hrishi Samay Jetty** | 
 
 ---
 
