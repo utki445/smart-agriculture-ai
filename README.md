@@ -279,13 +279,7 @@ If you want to retrain from scratch:
 
 ---
 
-## 👥 Authors
 
-| Name |
-|------|
-| **Hrishi Samay Jetty** | 
-
----
 
 ## 📄 License
 
