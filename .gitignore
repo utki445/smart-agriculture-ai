@@ -55,3 +55,10 @@ Docs/DSD_Review/
 # Build artefacts
 submission/
 *.zip
+
+# Demonstration video — too large for GitHub (100 MB limit); submitted via MS Teams
+*.MOV
+*.mov
+*.mp4
+*.avi
+*.mkv

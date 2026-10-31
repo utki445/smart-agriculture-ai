@@ -1,8 +1,8 @@
 {
-  "temperature": 24.0,
-  "humidity": 62.0,
-  "moisture": 0,
-  "raw_soil": 2559,
-  "pump": "ON",
-  "mode": "AUTO"
+  "temperature": 742.4,
+  "humidity": 1971.9,
+  "moisture_raw": 2629,
+  "moisture": 42,
+  "pump": "OFF",
+  "uptime_s": 888
 }
