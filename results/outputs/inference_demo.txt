@@ -1,0 +1,61 @@
+==============================================================
+SMART AGRICULTURE AI - INFERENCE DEMONSTRATION
+==============================================================
+run at 2026-10-25 23:35:25
+
+✅ SVM model loaded (CV accuracy: 0.9439675727229375)
+   Classes: ['Clay', 'Loam', 'Loamy sand', 'Sand', 'Sandy Loam']
+   Mode: svm
+✅ Soil Condition model loaded: ['healthy', 'cracked', 'waterlogged', 'compacted']
+--------------------------------------------------------------
+INPUT IMAGE : clay.jpg
+--------------------------------------------------------------
+[PREDICTION] Clay (52.0%) [method: svm, fusion: vision-only]
+Soil type      : Clay
+Confidence     : 52.0 %
+Class scores   :
+    Clay          52.00 %  #####################
+    Loam          21.90 %  #########
+    Loamy sand    10.57 %  ####
+    Sand           8.67 %  ###
+    Sandy Loam     6.86 %  ###
+Soil condition : cracked
+Confidence     : 77.2 %
+Class scores   :
+    cracked       77.21 %  ###############################
+    compacted     20.71 %  ########
+    healthy        1.23 %  
+    waterlogged    0.85 %  
+Assessment     : Cracked (Drought Stress)
+Description    : Soil shows desiccation cracks indicating severe moisture deficit.
+Irrigation     : Immediate deep watering required. Consider mulching to retain moisture.
+
+--------------------------------------------------------------
+INPUT IMAGE : loam.jpg
+--------------------------------------------------------------
+[PREDICTION] Loam (57.1%) [method: svm, fusion: vision-only]
+Soil type      : Loam
+Confidence     : 57.1 %
+Class scores   :
+    Loam          57.10 %  #######################
+    Clay          17.59 %  #######
+    Loamy sand    12.98 %  #####
+    Sand           6.43 %  ###
+    Sandy Loam     5.88 %  ##
+Soil condition : compacted
+Confidence     : 99.3 %
+Class scores   :
+    compacted     99.33 %  ########################################
+    cracked        0.51 %  
+    healthy        0.15 %  
+    waterlogged    0.02 %  
+Assessment     : Compacted / Dense
+Description    : Soil appears hard-packed with poor porosity. Root penetration will be difficult.
+Irrigation     : Aerate and till before planting. Drip irrigation recommended.
+
+--------------------------------------------------------------
+Note: the deployed classifier appends three normalised sensor values
+to the image features, then trims the vector back to the length the
+saved scaler was fitted on (1,382). Every prediction above is
+therefore image-only, which is what the report evaluates.
+--------------------------------------------------------------
