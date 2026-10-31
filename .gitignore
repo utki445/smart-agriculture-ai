@@ -62,3 +62,11 @@ submission/
 *.mp4
 *.avi
 *.mkv
+
+# Course submission documents — not published in a public repository
+Submission_Smart_Cities/
+*.docx
+*.pptx
+*.doc
+*.ppt
+hardware/WIRING.pdf

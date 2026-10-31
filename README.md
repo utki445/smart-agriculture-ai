@@ -157,7 +157,6 @@ training/         Model training and the source-disjoint evaluation
   figures/        Scripts that regenerate every report figure at 600 dpi
 results/          Evaluation outputs (JSON) and generated figures
 data/             Telemetry logs and generated reports
-Docs/new_docs/    Project report, proposal, slide deck
 ```
 
 ---
