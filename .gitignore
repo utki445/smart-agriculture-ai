@@ -37,3 +37,21 @@ build/
 # Patent & Legal Docs (keep private - do NOT push to public repos)
 Old_agriculture_patents/
 Docs/dummy_teammate_report_ieee.*
+
+# Secrets — never commit real credentials
+.env
+.env.local
+*.pem
+*.key
+
+# Agent/editor session state
+.claude/
+
+# Working document drafts (not part of the published project)
+Docs/new_docs/
+Docs/old_docs/
+Docs/DSD_Review/
+
+# Build artefacts
+submission/
+*.zip

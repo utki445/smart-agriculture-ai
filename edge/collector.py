@@ -8,14 +8,28 @@ import tempfile
 import shutil
 
 # ========== CONFIG ==========
-BROKER = "a62568cf691d41949408b3b439b010b0.s1.eu.hivemq.cloud"
-PORT = 8883
-USERNAME = "Utki12"
-PASSWORD = "Utki12345"
-TOPIC = "smartagri/data"
+# Credentials are read from the environment, never hard-coded. Copy
+# .env.example to .env, fill it in, and keep .env out of version control.
+#
+#   set MQTT_BROKER=your-broker.s1.eu.hivemq.cloud     (Windows)
+#   export MQTT_BROKER=your-broker.s1.eu.hivemq.cloud  (Linux / macOS)
+BROKER = os.environ.get("MQTT_BROKER", "")
+PORT = int(os.environ.get("MQTT_PORT", "8883"))
+USERNAME = os.environ.get("MQTT_USERNAME", "")
+PASSWORD = os.environ.get("MQTT_PASSWORD", "")
+TOPIC = os.environ.get("MQTT_TOPIC", "smartagri/data")
 
-LAT = 23.2547
-LON = 77.4029
+LAT = float(os.environ.get("SITE_LAT", "23.2547"))
+LON = float(os.environ.get("SITE_LON", "77.4029"))
+
+if not all((BROKER, USERNAME, PASSWORD)):
+    raise SystemExit(
+        "MQTT credentials are not configured.\n"
+        "Set MQTT_BROKER, MQTT_USERNAME and MQTT_PASSWORD in your environment\n"
+        "(see .env.example). This collector is the optional MQTT path; the\n"
+        "default serial path used by start_smart_agri.bat is\n"
+        "edge/serial_collector.py and needs no credentials."
+    )
 
 # ========== PATH FIX ==========
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
